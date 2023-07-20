@@ -24,7 +24,7 @@ anonasc = int(input())
 
 idade = 2023 - anonasc
 if idade < 18:
-    print(f"{nome}, não é permitida a venda para menores de 18 anos.")
+    print(f"{nome}, não é permitida a venda para menores de 18 anos. Fim de programa.")
     exit()  
 else:
     print("Pode continuar com a compra.")
